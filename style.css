@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+p {
+    background: #b2b5c9;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    color: rgb(107, 105, 105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background: #13116d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+.body1 {
+    background:rgb(24, 21, 71);
+    text-align: center;
+    align-items: center;
+    color:lightblue;
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.body {
+    background-image: url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif');
+    background-size: cover; 
+    height: 100vh;
+    color: lightblue;
+
+    text-align:center;
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Error {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.Mydiv {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: lightblue;
+    text-align: center;
+}
+
+.btn {
+    padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom:10px;
+    text-align: center;
+    border: 5px outset rgb(24, 21, 71);
+    background-color: rgb(41, 33, 150);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+    color:lightblue;
+}
+
+.menu {
+    background: #13116d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: lightblue;
+    padding: 1rem;
+    text-align: center;
+    font-style: normal;
+}
