@@ -21,6 +21,10 @@ header {
     align-items: center;
   }
 
+.logo { 
+    float: left;
+}
+
 .body1 {
     background:rgb(24, 21, 71);
     text-align: center;
