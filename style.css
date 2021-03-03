@@ -66,6 +66,7 @@ header {
 .btn {
     padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom:10px;
     text-align: center;
+    vertical-align: middle;
     border: 5px outset rgb(24, 21, 71);
     background-color: rgb(41, 33, 150);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
