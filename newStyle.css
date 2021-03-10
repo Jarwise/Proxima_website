@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
-header {
+#Navbar {
     background:rgb(62, 181, 255);
     background-image: url("imgs/wp.png");
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem;
+    padding: 40px 10px;
     text-align: center;
-    overflow: auto;
+    /* this part is used for scrolling */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.4s;
 }
 
 .navbar a {
@@ -26,16 +31,29 @@ header {
     background-color: #000;
   }
 
-.link {
-      font-size: 20px;
-      padding: 12px;
-      background-color: rgb(62, 181, 255);
-      border-radius: 5px;
-      color: white;
-  }
+.link{
+    font-size: 20px;
+    padding: 12px;
+    text-decoration: none;
+    text-anchor: middle;
+    background-color: rgb(62, 181, 255);
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s;
+}
+.link:hover { padding: 15px; border-radius: 6px; background:black;}
 
 .logo { 
     float: left;
+    margin-left: 2rem;
+}
+
+.quote {
+    color:rgb(210, 230, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    text-align: center;
 }
 
 body {
@@ -132,6 +150,7 @@ img {
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
 }
 .big a:hover {
     padding: 45px;
@@ -150,6 +169,7 @@ img {
     padding: 10px;
     text-decoration: none;
     vertical-align: middle;
+    transition: 0.4s;
 }
 .up a:hover{
     padding-bottom: 30px;
