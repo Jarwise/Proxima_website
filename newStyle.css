@@ -24,11 +24,12 @@ div{position:relative;}
 
 .navbar a {
     float: right;
+    display: block;
     text-align: center;
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
   }
 .navbar a:hover {
     background-color: #000;
@@ -99,6 +100,21 @@ table {
     overflow-anchor: middle;
 }
 td{max-width: 200px;max-height:150px; vertical-align: top; padding-top: 30px;}
+td img{
+    max-height: 200px; max-width: 200px;
+    width: auto;
+    height: 20vw;
+}
+.project{
+    height: 15vw;
+    width: 30vw;
+}
+
+.tento{
+    position: relative;
+    z-index: 700;
+    grid-template-columns:repeat(2, auto);
+}
 
 p {
     padding: 2rem;
@@ -135,14 +151,13 @@ p {
     padding: 2rem;
     background-image: url("imgs/works/leafy.png");
     background-size: cover;
-    height: 200px; width: 400px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     border-radius: 5px;
     transition: 0.4s;
 }
-.project:hover {height: 220px; width: 440px; z-index: 1000;}
+.project:hover {height: 17vw; width: 34vw; z-index: 1000;}
 
 footer {
     background:rgb(62, 181, 255);
