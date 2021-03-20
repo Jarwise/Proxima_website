@@ -84,7 +84,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #13116d;
     text-align: center;
-    font-size: 80px;
+    font-size: 5rem;
     z-index: 700;
 }
 
@@ -110,11 +110,6 @@ td img{
     width: 30vw;
 }
 
-.tento{
-    position: relative;
-    z-index: 700;
-    grid-template-columns:repeat(2, auto);
-}
 
 p {
     padding: 2rem;
